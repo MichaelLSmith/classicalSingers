@@ -22,22 +22,13 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<div class="col-md-12">
 
 				<footer class="site-footer" id="colophon">
+				<?php
+					$image = get_field('footer_image', 'option');
+						if( !empty($image) ): ?>
 
-					<div class="site-info">
+							<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
 
-							<a href="<?php  echo esc_url( __( 'http://wordpress.org/','understrap' ) ); ?>"><?php printf( 
-							/* translators:*/
-							esc_html__( 'Proudly powered by %s', 'understrap' ),'WordPress' ); ?></a>
-								<span class="sep"> | </span>
-					
-							<?php printf( // WPCS: XSS ok.
-							/* translators:*/
-								esc_html__( 'Theme: %1$s by %2$s.', 'understrap' ), $the_theme->get( 'Name' ),  '<a href="'.esc_url( __('http://understrap.com', 'understrap')).'">understrap.com</a>' ); ?> 
-				
-							(<?php printf( // WPCS: XSS ok.
-							/* translators:*/
-								esc_html__( 'Version: %1$s', 'understrap' ), $the_theme->get( 'Version' ) ); ?>)
-					</div><!-- .site-info -->
+						<?php endif; ?>
 
 				</footer><!-- #colophon -->
 
@@ -56,4 +47,3 @@ $container = get_theme_mod( 'understrap_container_type' );
 </body>
 
 </html>
-

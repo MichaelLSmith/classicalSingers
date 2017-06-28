@@ -1,16 +1,25 @@
 // This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
 
-//utilities:
+// utilities:
 
 .flex-container {
   display: flex;
 }
 .logo-container {
   margin: auto;
+  max-width: 700px;
 }
 .caption {
   text-align: center;
 }
 .nav-link {
   color: inherit;
+}
+.flex-center {
+  justify-content: center;
+}
+
+//bootstrap overrides:
+.dropdown-menu .menu-item a.nav-link:hover {
+  background-color: #eceeef;
 }
