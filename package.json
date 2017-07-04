@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "gulp copy-assets",
-    "gulp watch": "gulp watch"
+    "gulp watch": "gulp watch",
+    "gulp dist": "gulp dist"
   },
   "engines": {
     "npm": ">=2.1.8"

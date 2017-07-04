@@ -19,6 +19,18 @@
   justify-content: center;
 }
 
+.monthly p {
+  margin: 0 0 5px 0;
+  line-height: 1.2;
+  font-family: futura; 
+}
+
+.monthly p:first-child::first-letter {
+  color: #878a86;
+  font-family: inherit;
+  font-size: 200%;
+}
+
 //bootstrap overrides:
 .dropdown-menu .menu-item a.nav-link:hover {
   background-color: #eceeef;

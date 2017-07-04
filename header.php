@@ -35,7 +35,13 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 				<div class="flex-container">
 					<div class="logo-container">
-						<?php the_custom_logo(); ?>
+				<?php
+					$image = get_field('header_image', 'option');
+						if( !empty($image) ): ?>
+
+							<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+
+						<?php endif; ?>
 					</div>
 				</div>
 

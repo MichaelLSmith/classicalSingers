@@ -29,12 +29,7 @@
 
 		<?php the_content(); ?>
 
-		<?php if( get_field('text_grey_background') ): ?>
 
-			<div class="jumbotron">
-				<?php the_field('text_grey_background'); ?>
-			</div>
-		<?php endif; ?>
 
 		<?php
 		wp_link_pages( array(
