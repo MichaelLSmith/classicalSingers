@@ -6,7 +6,7 @@
 @import "assets/font-awesome"; // <------- Font Awesome Icon font
 @import "assets/underscores"; // <------- Underscores media styles
 
+@import "theme/base";//where I set base css settings
 // Any additional imported files //
 @import "theme/theme";  // <--------- Thats where you can add your own design. Thats your part!
-@import "theme/base"//where I set base css settings
 @import "theme/contact-form7"; // contact form 7 - Bootatrap 4 support

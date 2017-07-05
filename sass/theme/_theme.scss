@@ -7,10 +7,13 @@
 }
 .logo-container {
   margin: auto;
-  max-width: 700px;
+  max-width: 55%;
 }
 .caption {
   text-align: center;
+}
+.nav {
+  font-size: 1.4em;
 }
 .nav-link {
   color: inherit;
@@ -18,17 +21,26 @@
 .flex-center {
   justify-content: center;
 }
-
+//home page
 .monthly p {
   margin: 0 0 5px 0;
   line-height: 1.2;
-  font-family: futura; 
+  font-family: futura;
 }
 
 .monthly p:first-child::first-letter {
   color: #878a86;
   font-family: inherit;
   font-size: 200%;
+}
+
+//footer
+.footer-social-media-list {
+  list-style: none;
+  text-align: center;
+}
+.footer-social-media-item > a {
+  font-size: 1.7em;
 }
 
 //bootstrap overrides:

@@ -33,15 +33,17 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<a class="skip-link screen-reader-text sr-only" href="#content"><?php esc_html_e( 'Skip to content',
 		'understrap' ); ?></a>
 
-				<div class="flex-container">
-					<div class="logo-container">
-				<?php
-					$image = get_field('header_image', 'option');
-						if( !empty($image) ): ?>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<?php
+								$image = get_field('header_image', 'option');
+									if( !empty($image) ): ?>
 
-							<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+										<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
 
-						<?php endif; ?>
+									<?php endif; ?>
+						</div>
 					</div>
 				</div>
 
