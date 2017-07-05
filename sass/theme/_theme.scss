@@ -12,8 +12,11 @@
 .caption {
   text-align: center;
 }
-.nav {
-  font-size: 1.4em;
+.navbar-nav {
+  font-size: 1.7em;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 'extra-bold';
+  text-transform: uppercase;
 }
 .nav-link {
   color: inherit;
@@ -22,10 +25,17 @@
   justify-content: center;
 }
 //home page
+.monthly {
+  min-height: 317px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .monthly p {
-  margin: 0 0 5px 0;
+  margin: 0 0 1.5em 0;
   line-height: 1.2;
-  font-family: futura;
+  font-size: 1.8em;
 }
 
 .monthly p:first-child::first-letter {
@@ -40,7 +50,8 @@
   text-align: center;
 }
 .footer-social-media-item > a {
-  font-size: 1.7em;
+  font-size: 5em;
+  color: black;
 }
 
 //bootstrap overrides:
