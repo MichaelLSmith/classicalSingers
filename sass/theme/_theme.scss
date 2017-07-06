@@ -5,28 +5,27 @@
 .flex-container {
   display: flex;
 }
-.logo-container {
-  margin: auto;
-  max-width: 55%;
-}
-.caption {
-  text-align: center;
-}
-.navbar-nav {
-  font-size: 1.7em;
-  font-family: 'Nunito', sans-serif;
-  font-weight: 'extra-bold';
-  text-transform: uppercase;
-}
-.nav-link {
-  color: inherit;
-}
 .flex-center {
   justify-content: center;
 }
 .textbox-grey {
   background-color: #e5e5e5;
   padding: 3.5em;
+}
+.bottom-pad {
+  padding-bottom: 3.5em;
+}
+//header
+
+
+.navbar {
+  font-size: 2em;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.nav-link {
+  color: inherit;
 }
 //home page
 .monthly {
@@ -77,4 +76,7 @@
 //bootstrap overrides:
 .dropdown-menu .menu-item a.nav-link:hover {
   background-color: #eceeef;
+}
+.dropdown-menu {
+  font-size: 1em;
 }

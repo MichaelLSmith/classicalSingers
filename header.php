@@ -33,7 +33,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<a class="skip-link screen-reader-text sr-only" href="#content"><?php esc_html_e( 'Skip to content',
 		'understrap' ); ?></a>
 
-				<div class="container">
+				<div class="container bottom-pad">
 					<div class="row">
 						<div class="col-md-12">
 							<?php
@@ -51,7 +51,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<!-- navbar-inverse bg-inverse -->
 
 		<?php if ( 'container' == $container ) : ?>
-			<div class="container">
+			<!-- <div class="container"> -->
 		<?php endif; ?>
 
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -74,7 +74,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 					)
 				); ?>
 			<?php if ( 'container' == $container ) : ?>
-			</div><!-- .container -->
+			<!-- </div> -->
+			<!-- .container -->
 			<?php endif; ?>
 
 		</nav><!-- .site-navigation -->
