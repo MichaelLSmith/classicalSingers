@@ -24,7 +24,7 @@ if ( ! function_exists( 'understrap_scripts' ) ) {
 add_action( 'wp_enqueue_scripts', 'understrap_scripts' );
 
 function wpb_add_google_fonts() {
-	wp_enqueue_style( 'wpb-google-fonts', "https://fonts.googleapis.com/css?family=Nunito:400,700,800|Kameron", false );
+	wp_enqueue_style( 'wpb-google-fonts', "https://fonts.googleapis.com/css?family=Nunito:400,700,900|Kameron", false );
 }
 
 add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );

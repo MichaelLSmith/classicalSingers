@@ -47,7 +47,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 					</div>
 				</div>
 
-		<nav class="navbar navbar-toggleable-md">
+		<nav class="navbar navbar-toggleable-lg">
 			<!-- navbar-inverse bg-inverse -->
 
 		<?php if ( 'container' == $container ) : ?>

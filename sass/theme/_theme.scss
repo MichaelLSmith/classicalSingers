@@ -12,16 +12,31 @@
   background-color: #e5e5e5;
   padding: 3.5em;
 }
+.textbox-grey p {
+  color: #585858;
+}
+.textbox-grey h3 {
+  color: #585858;
+}
+.dark-grey-bck {
+  background-color: #919191;
+}
+.dark-grey-bck p {
+  font-size: 2.4em;
+  padding: 1.1em 1em;
+  color: #fff;
+}
+.dark-grey-bck a {
+  color: inherit;
+}
 .bottom-pad {
   padding-bottom: 3.5em;
 }
 //header
-
-
 .navbar {
-  font-size: 2em;
+  font-size: 2.05em;
   font-family: 'Nunito', sans-serif;
-  font-weight: 800;
+  font-weight: 900;
   text-transform: uppercase;
 }
 .nav-link {
@@ -54,6 +69,38 @@
   font-size: 2em;
   margin-top: .5em;
 }
+//concert Seasons
+#pl-11 .so-panel {
+  margin-bottom: .5em !important;
+}
+#pl-11 .panel-first-child {
+  margin-bottom: 3em !important;
+}
+.concert-title, .concert-italic, .concert-last-text {
+  max-width: 75%;
+}
+.concert-title {
+  font-size: 1.16em
+}
+.concert-last-text {
+  font-size: 1.16em;
+}
+.concert-boxes p {
+  color: black;
+  font-size: 1.6em;
+}
+//tickets-purchase
+#panel-13-0-2-1 {
+  margin-bottom: .5em !important;
+}
+#pl-13 .so-panel {
+  margin-bottom: 1em;
+  font-weight: 700;
+}
+//conductor
+.conductor h3 {
+  color: black;
+}
 
 //footer
 .footer-social-media-list {
@@ -79,4 +126,7 @@
 }
 .dropdown-menu {
   font-size: 1em;
+}
+.dropdown-toggle::after {
+    display:none
 }
