@@ -31,27 +31,24 @@ $container = get_theme_mod( 'understrap_container_type' );
 				</footer><!-- #colophon -->
 			</div><!--col end -->
 		</div><!-- row end -->
-		<div class="row justify-content-center">
-			<div class="col-md-12">
-				<?php if( have_rows('footer_social_media', 'option') ): ?>
-					<ul class="footer-social-media-list">
-					<?php while( have_rows('footer_social_media', 'option') ): the_row();
-						// vars
-						$image = get_sub_field('social_media_icon', 'option');
-						$link = get_sub_field('social_media_url', 'option');
-					?>
-						<li class="footer-social-media-item">
-							<?php if( $link ): ?>
-								<a href="<?php echo $link; ?>">
-									<?php echo $image ?>
-
-								</a>
-							<?php endif; ?>
-						</li>
-					<?php endwhile; ?>
-					</ul>
-				<?php endif; ?>
-			</div>
+		<div class="flex-container flex-center">
+			<?php if( have_rows('footer_social_media', 'option') ): ?>
+				<ul class="footer-social-media-list">
+				<?php while( have_rows('footer_social_media', 'option') ): the_row();
+					// vars
+					$image = get_sub_field('social_media_icon', 'option');
+					$link = get_sub_field('social_media_url', 'option');
+				?>
+					<li class="footer-social-media-item">
+						<?php if( $link ): ?>
+							<a href="<?php echo $link; ?>">
+								<?php echo $image ?>
+							</a>
+						<?php endif; ?>
+					</li>
+				<?php endwhile; ?>
+				</ul>
+			<?php endif; ?>
 		</div>
 
 	</div><!-- container end -->

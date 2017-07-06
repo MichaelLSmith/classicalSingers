@@ -24,6 +24,10 @@
 .flex-center {
   justify-content: center;
 }
+.textbox-grey {
+  background-color: #e5e5e5;
+  padding: 3.5em;
+}
 //home page
 .monthly {
   min-height: 317px;
@@ -44,11 +48,27 @@
   font-size: 200%;
 }
 
+//Board Page
+.board-img .widget-title {
+  text-align: center;
+  color: black;
+  font-size: 2em;
+  margin-top: .5em;
+}
+
 //footer
 .footer-social-media-list {
   list-style: none;
   text-align: center;
+  display: flex;
+  padding: 0;
 }
+
+.footer-social-media-item {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
 .footer-social-media-item > a {
   font-size: 5em;
   color: black;
