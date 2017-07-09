@@ -12,6 +12,9 @@
   background-color: #e5e5e5;
   padding: 3.5em;
 }
+.box-pad {
+  padding: 3.5em;
+}
 .textbox-grey p {
   color: #585858;
 }
@@ -34,8 +37,8 @@
 }
 //header
 .navbar {
-  font-size: 2.05em;
-  font-family: 'Nunito', sans-serif;
+  font-size: 2.8em;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 900;
   text-transform: uppercase;
 }
@@ -101,23 +104,130 @@
 .conductor h3 {
   color: black;
 }
+//sing
+.join-row {
+  position: relative;
+}
+.join-heading {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 6px;
+}
+#panel-19-1-0-1 {
+  margin-bottom: .5em !important;
+}
+//apply
+.form-wrapper {
+  max-width: 80%;
+  margin-left: auto;
+  font-size: 1.8em;
+}
+.nf-before-form-content {
+  display: flex;
+  justify-content: flex-end;
+}
+.nf-form-fields-required {
+  font-size: .75em;
+}
+.submit-wrap .nf-field-element {
+  display: flex;
+  justify-content: flex-end;
+}
+.sing-btn {
+  background-color: red;
+  color: white;
+}
+//donate
+.donate-row {
+  margin: auto;
+  max-width: 75%;
+}
+.donate-black-text p {
+  color: black;
+}
+.donate-black-text h4 {
+  font-weight: 700;
+}
+.donate-black-text ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 1em 0;
+  padding: 0;
+}
+.donate-black-text li {
+  font-size: 2em;
+  padding: 0 2em 0 0;
+}
+//gallery
+.gallery-row .so-panel {
+  margin-bottom: 0px !important;
+}
+//links
+.logo-img {
+  max-width: 200px !important;
+}
+.logo-parent {
+  text-align: center;
+}
+.parent-cammac {
+  position: relative;
+}
+.logo-cammac {
+  position: absolute;
+  margin: auto;
+  top: -25px;
+  left: 0;
+  right: 0;
+}
+.logo-circle {
+  max-width: 100px !important;
+}
+.logo-text span {
+  display: block;
+  color: #6277c9;
+  font-size: 2.6em;
+  line-height: 1;
+}
+.theme-credit-name {
+  margin: 1em 0;
+}
+.logo-soc-flex {
 
-//footer
-.footer-social-media-list {
+}
+.link-soc-media-widget {
+
+}
+.logo-row {
+  min-height: 300px;
+}
+.logo-row > div {
+  height: auto;
+  align-self: stretch !important;
+}
+
+//social media
+.social-media-list {
   list-style: none;
   text-align: center;
   display: flex;
   padding: 0;
 }
 
-.footer-social-media-item {
+.social-media-item {
   padding-left: 5px;
   padding-right: 5px;
 }
 
-.footer-social-media-item > a {
+.social-media-item > a {
   font-size: 5em;
   color: black;
+}
+.logo-soc-flex {
+  align-items: center;
 }
 
 //bootstrap overrides:

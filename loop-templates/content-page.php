@@ -7,15 +7,6 @@
 
 ?>
 <article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
-
-	<header class="entry-header">
-
-		<?php
-			//the_title( '<h1 class="entry-title">', '</h1>' );
-		?>
-
-	</header><!-- .entry-header -->
-
 	<div class="d-flex p-2 mb-3">
 		<div class="featured-img mx-auto">
 			<?php echo get_the_post_thumbnail( $post->ID, 'large', array('class' => '') ); ?>

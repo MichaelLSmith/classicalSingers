@@ -10,5 +10,12 @@ h3 {
   color: #878a86;
   font-weight: bold;
 }
-
-//background grey: #e5e5e5
+a {
+  color: $color__link;
+}
+a:visted {
+  color: $color__link-visited;
+}
+a:hover {
+  color: $color__link-hover;
+}
