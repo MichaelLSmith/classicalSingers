@@ -8,6 +8,9 @@
 .flex-center {
   justify-content: center;
 }
+.flex-item-center {
+  align-items: center;
+}
 .textbox-grey {
   background-color: #e5e5e5;
   padding: 3.5em;
@@ -172,41 +175,50 @@
 }
 .logo-parent {
   text-align: center;
-}
-.parent-cammac {
   position: relative;
 }
-.logo-cammac {
+.logo_3 {
   position: absolute;
   margin: auto;
   top: -25px;
   left: 0;
   right: 0;
 }
+.logo_4 {
+  max-height: 128px;
+  width: auto;
+}
+.logo_5 {
+  max-height: 128px;
+  width: auto;
+}
 .logo-circle {
   max-width: 100px !important;
 }
-.logo-text span {
-  display: block;
+.logo-text {
   color: #6277c9;
   font-size: 2.6em;
   line-height: 1;
+}
+.logo-text a {
+  color: inherit;
 }
 .theme-credit-name {
   margin: 1em 0;
 }
 .logo-soc-flex {
-
-}
-.link-soc-media-widget {
-
+  height: auto;
+  align-self: center;
 }
 .logo-row {
-  min-height: 300px;
+  min-height: 100px;
 }
 .logo-row > div {
   height: auto;
   align-self: stretch !important;
+}
+.caption {
+  font-size: 1.3em;
 }
 
 //social media
@@ -215,6 +227,7 @@
   text-align: center;
   display: flex;
   padding: 0;
+  margin-bottom: 0;
 }
 
 .social-media-item {
@@ -225,9 +238,6 @@
 .social-media-item > a {
   font-size: 5em;
   color: black;
-}
-.logo-soc-flex {
-  align-items: center;
 }
 
 //bootstrap overrides:
