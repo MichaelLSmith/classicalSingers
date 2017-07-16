@@ -11,6 +11,9 @@
 .flex-item-center {
   align-items: center;
 }
+.flex-item-bottom {
+  align-content: flex-end;
+}
 .textbox-grey {
   background-color: #e5e5e5;
   padding: 3.5em;
@@ -46,6 +49,9 @@
 }
 .top-margin {
   margin-top: 5em;
+}
+.vis-hide {
+  visibility: hidden;
 }
 //header
 .navbar {
@@ -107,13 +113,16 @@
   font-size: 1.7em;
 }
 //tickets-purchase
-#panel-13-0-2-1 {
-  margin-bottom: .5em !important;
+.season-tickets {
+  font-family: 'Open Sans Condensed', sans-serif;
+  h5 {
+    font-size: 1.5rem;
+  }
+  h6 {
+    font-size: 1.2rem;
+  }
 }
-#pl-13 .so-panel {
-  margin-bottom: 1em;
-  font-weight: 700;
-}
+
 //conductor
 .conductor h3 {
   color: black;
@@ -177,16 +186,19 @@
   padding: 0 2em 0 0;
 }
 //gallery
-.gallery-row .so-panel {
-  margin-bottom: 0px !important;
+.gallery-row {
+  margin: 10em 10em;
 }
-//links
+//LINKS
 .logo-img {
   max-width: 200px !important;
 }
 .logo-parent {
   text-align: center;
   position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 .logo_3 {
   position: absolute;
@@ -258,8 +270,9 @@
   left: 302px;
 }
 .site-credits {
+  font-family: 'helvetica';
   font-size: .5em;
-  margin-top: 4em;
+  margin-top: 1em;
 }
 //bootstrap overrides:
 .dropdown-menu .menu-item a.nav-link:hover {

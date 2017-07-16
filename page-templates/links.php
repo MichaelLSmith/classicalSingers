@@ -53,11 +53,12 @@ get_header();?>
         include(locate_template('page-templates/img-logo.php'));
       ?>
     </div>
-    <div class="col-md-4 logo-parent logo-text flex-container flex-center flex-item-center">
-      <!-- Jurgen Petrenko -->
-      <a href="http://www.jurgenpetrenko.com/biography.htm">
-        <?php the_field('logo_6'); ?>
-      </a>
+    <div class="col-md-4 logo-parent">
+      <?php
+        $name = 'logo_6';
+        $url = 'url_6';
+        include(locate_template('page-templates/img-logo.php'));
+      ?>
     </div>
   </div>
   <div class="row logo-row">
@@ -68,7 +69,7 @@ get_header();?>
         include(locate_template('page-templates/img-logo.php'));
       ?>
     </div>
-    <div class="col-md-4 logo-parent flex-container flex-center">
+    <div class="col-md-4 logo-parent flex-container flex-center vis-hide">
       <!-- social Media List -->
       <?php include(locate_template('page-templates/loop-social.php')); ?>
     </div>
