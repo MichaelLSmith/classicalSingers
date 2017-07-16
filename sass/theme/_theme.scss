@@ -35,8 +35,17 @@
 .dark-grey-bck a {
   color: inherit;
 }
-.bottom-pad {
-  padding-bottom: 3.5em;
+.bottom-margin {
+  margin-bottom: 3.5em;
+}
+.bottom-margin-1em {
+  margin-bottom: 1em;
+}
+.top-pad {
+  padding-top: 7em;
+}
+.top-margin {
+  margin-top: 5em;
 }
 //header
 .navbar {
@@ -59,7 +68,10 @@
 .monthly p {
   margin: 0 0 1.5em 0;
   line-height: 1.2;
-  font-size: 1.8em;
+}
+//eugene change
+.monthly-row {
+  margin-bottom: 6.4em;
 }
 
 .monthly p:first-child::first-letter {
@@ -67,7 +79,12 @@
   font-family: inherit;
   font-size: 200%;
 }
-
+.board-img {
+  margin-bottom: 8em;
+}
+.board-img img {
+  max-width: 350px;
+}
 //Board Page
 .board-img .widget-title {
   text-align: center;
@@ -76,13 +93,7 @@
   margin-top: .5em;
 }
 //concert Seasons
-#pl-11 .so-panel {
-  margin-bottom: .5em !important;
-}
-#pl-11 .panel-first-child {
-  margin-bottom: 3em !important;
-}
-.concert-title, .concert-italic, .concert-last-text {
+.concert-italic, .concert-last-text {
   max-width: 75%;
 }
 .concert-title {
@@ -93,7 +104,7 @@
 }
 .concert-boxes p {
   color: black;
-  font-size: 1.6em;
+  font-size: 1.7em;
 }
 //tickets-purchase
 #panel-13-0-2-1 {
@@ -220,7 +231,6 @@
 .caption {
   font-size: 1.3em;
 }
-
 //social media
 .social-media-list {
   list-style: none;
@@ -247,7 +257,10 @@
   bottom: 87px;
   left: 302px;
 }
-
+.site-credits {
+  font-size: .5em;
+  margin-top: 4em;
+}
 //bootstrap overrides:
 .dropdown-menu .menu-item a.nav-link:hover {
   background-color: #eceeef;
