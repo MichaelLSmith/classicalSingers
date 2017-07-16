@@ -14,6 +14,9 @@
 .flex-item-bottom {
   align-content: flex-end;
 }
+.flex-align-item-bottom {
+  align-items: flex-end;
+}
 .textbox-grey {
   background-color: #e5e5e5;
   padding: 3.5em;
@@ -75,7 +78,6 @@
   margin: 0 0 1.5em 0;
   line-height: 1.2;
 }
-//eugene change
 .monthly-row {
   margin-bottom: 6.4em;
 }
@@ -116,12 +118,13 @@
 .season-tickets {
   font-family: 'Open Sans Condensed', sans-serif;
   h5 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
   h6 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
 }
+//gallery-row
 
 //conductor
 .conductor h3 {
@@ -139,8 +142,8 @@
   right: 0;
   top: 6px;
 }
-#panel-19-1-0-1 {
-  margin-bottom: .5em !important;
+.apply-btn {
+  font-size: 2em;
 }
 //apply
 .form-wrapper {
@@ -168,6 +171,9 @@
   margin: auto;
   max-width: 75%;
 }
+.support-row {
+  margin-top: 3.5em;
+}
 .donate-black-text p {
   color: black;
 }
@@ -187,8 +193,10 @@
 }
 //gallery
 .gallery-row {
-  margin: 10em 10em;
+  margin: auto;
+  max-width: 1400px;
 }
+
 //LINKS
 .logo-img {
   max-width: 200px !important;
@@ -200,10 +208,10 @@
   display: flex;
   justify-content: center;
 }
-.logo_3 {
+.logo_2 {
   position: absolute;
   margin: auto;
-  top: -25px;
+  top: 41px;
   left: 0;
   right: 0;
 }

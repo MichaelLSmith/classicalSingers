@@ -62,18 +62,18 @@ get_header();?>
     </div>
   </div>
   <div class="row logo-row">
-    <div class="col-md-4 logo-parent">
+    <div class="col-md-4 flex-container flex-center flex-align-item-bottom">
       <?php
         $name = 'logo_7';
         $url = 'url_7';
         include(locate_template('page-templates/img-logo.php'));
       ?>
     </div>
-    <div class="col-md-4 logo-parent flex-container flex-center vis-hide">
+    <div class="col-md-4 flex-container flex-center vis-hide">
       <!-- social Media List -->
       <?php include(locate_template('page-templates/loop-social.php')); ?>
     </div>
-    <div class="col-md-4 logo-parent logo-text flex-container flex-center flex-item-center">
+    <div class="col-md-4 logo-text flex-container flex-center flex-align-item-bottom">
       <!-- Michael Smith -->
       <a href="https://michaellsmith.github.io/">
         <?php the_field('logo_10'); ?>
