@@ -67,14 +67,27 @@
   color: inherit;
 }
 //home page
+.front-quote {
+  color: black;
+  max-width: 370px;
+  margin: auto;
+}
+.front-quote p {
+  color: inherit;
+}
 .monthly {
+  color: black;
   min-height: 317px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #7ea1f9;
+  box-shadow: 0px 0px 35px grey;
+  margin: 7em auto 0 auto;
 }
 
 .monthly p {
+  color: inherit;
   margin: 0 0 1.5em 0;
   line-height: 1.2;
 }
@@ -83,9 +96,9 @@
 }
 
 .monthly p:first-child::first-letter {
-  color: #878a86;
-  font-family: inherit;
-  font-size: 200%;
+  // color: #878a86;
+  // font-family: inherit;
+  // font-size: 200%;
 }
 //Board Page
 .board-img {
