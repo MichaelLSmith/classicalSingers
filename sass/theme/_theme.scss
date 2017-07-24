@@ -69,7 +69,7 @@
 //home page
 .front-quote {
   color: black;
-  max-width: 370px;
+  // max-width: 370px;
   margin: auto;
 }
 .front-quote p {
@@ -79,11 +79,12 @@
   color: black;
   min-height: 317px;
   display: flex;
-  justify-content: center;
   align-items: center;
   background-color: #7ea1f9;
-  box-shadow: 0px 0px 35px grey;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
   margin: 7em auto 0 auto;
+  padding: 4.5em;
+  max-width: 65em;
 }
 
 .monthly p {
@@ -110,16 +111,16 @@
 .board-img .widget-title {
   text-align: center;
   color: black;
-  font-size: 2em;
+  font-size: 1.5em;
   margin-top: .5em;
   font-family: 'Nunito';
 }
 //concert Seasons
 .concert-italic, .concert-last-text {
-  max-width: 75%;
+  max-width: 85%;
 }
-.concert-title {
-  font-size: 1.16em
+.concert-info {
+  min-height: 7.5em;
 }
 .concert-last-text {
   font-size: 1.16em;
@@ -129,6 +130,12 @@
   font-size: 1.7em;
 }
 //tickets-purchase
+.buy-button {
+  text-align: center;
+}
+.buy-button a {
+  font-size: 2.4em;
+}
 .season-tickets {
   font-family: 'Open Sans Condensed', sans-serif;
   h5 {
