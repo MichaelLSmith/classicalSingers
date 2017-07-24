@@ -293,10 +293,21 @@
   position: relative;
 }
 .contact-pen {
-  max-width: 577px;
+  max-width: 216px;
   position: absolute;
+  bottom: 136px;
+  left: 302px;
+}
+.contact-pen {
+  @media (min-width: 992px) {
+  max-width: 500px;
   bottom: 87px;
   left: 302px;
+  }
+  @media (min-width: 768px) {
+    max-width: 396px;
+    bottom: 87px;
+  }
 }
 .site-credits {
   font-family: 'helvetica';
