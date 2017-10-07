@@ -69,13 +69,10 @@ get_header();?>
         include(locate_template('page-templates/img-logo.php'));
       ?>
     </div>
-      <div class="col-md-4 flex-container flex-center flex-align-item-bottom">
-        <?php
-          $name = 'logo_8';
-          $url = 'url_8';
-          include(locate_template('page-templates/img-logo.php'));
-        ?>
-      </div>
+    <div class="col-md-4 flex-container flex-center vis-hide">
+      <!-- social Media List -->
+      <?php include(locate_template('page-templates/loop-social.php')); ?>
+    </div>
     <div class="col-md-4 logo-text flex-container flex-center flex-align-item-bottom">
       <!-- Michael Smith -->
       <a href="https://michaellsmith.github.io/">
